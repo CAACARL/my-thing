@@ -9,7 +9,7 @@ export function Experience() {
         </h2>
 
         {/* Table Header */}
-        <div className="hidden md:grid grid-cols-[140px_1fr_180px] gap-4 pb-3 text-xs uppercase tracking-widest text-gray-400">
+        <div className="hidden md:grid grid-cols-[140px_1fr_180px] gap-4 pb-3 text-xs uppercase tracking-widest text-black-400 font-bold">
           <div>Period</div>
           <div>Role</div>
           <div>Company</div>
@@ -17,9 +17,9 @@ export function Experience() {
 
         {/* Row 1 */}
         <div className="grid grid-cols-1 md:grid-cols-[140px_1fr_180px] gap-2 md:gap-4 py-4 border-t border-gray-200">
-          <div className="text-sm text-gray-500">2026 — </div>
+          <div className="text-sm text-black-500">2026 — </div>
           <div className="text-sm font-medium text-black">Intern</div>
-          <div className="text-sm text-gray-600">Innoendo IT Solutions</div>
+          <div className="text-sm text-black-600">Innoendo IT Solutions</div>
         </div>
       </FadeIn>
     </section>

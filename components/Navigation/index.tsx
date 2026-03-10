@@ -44,9 +44,9 @@ export function Navbar() {
         <a
           href="#top"
           onClick={(e) => handleNavClick(e, "#top")}
-          className="text-sm uppercase tracking-widest font-medium text-black hover:text-[#E53935] transition-colors"
+          className="text-sm uppercase tracking-widest font-bold text-black hover:text-[#E53935] transition-colors"
         >
-          Carl
+          Portfolio
         </a>
 
         {/* Desktop Nav */}
@@ -56,7 +56,7 @@ export function Navbar() {
               key={link.name}
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
-              className="text-xs uppercase tracking-widest text-gray-600 hover:text-[#E53935] transition-colors"
+              className="text-xs uppercase tracking-widest text-black-600 hover:text-[#E53935] transition-colors font-bold"
             >
               {link.name}
             </a>

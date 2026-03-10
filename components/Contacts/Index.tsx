@@ -11,7 +11,7 @@ export function Contact() {
           Contact
         </h2>
 
-        <p className="text-base text-gray-600 mb-6">Send me an email real quick</p>
+        <p className="text-base text-black-600 mb-6 font-bold">Send me an email!</p>
 
         <ContactForm />
       </FadeIn>

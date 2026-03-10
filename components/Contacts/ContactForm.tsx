@@ -45,7 +45,7 @@ export function ContactForm() {
       <div>
         <label
           htmlFor="name"
-          className="block text-xs uppercase tracking-widest text-gray-500 mb-2"
+          className="block text-xs uppercase tracking-widest text-black-500 mb-2"
         >
           Name
         </label>
@@ -53,7 +53,7 @@ export function ContactForm() {
           type="text"
           id="name"
           name="name"
-          className="w-full border border-gray-300 px-3 py-2.5 text-sm"
+          className="w-full border border-black-300 px-3 py-2.5 text-sm"
           required
         />
       </div>
@@ -61,7 +61,7 @@ export function ContactForm() {
       <div>
         <label
           htmlFor="email"
-          className="block text-xs uppercase tracking-widest text-gray-500 mb-2"
+          className="block text-xs uppercase tracking-widest text-black-500 mb-2"
         >
           Email
         </label>
@@ -69,7 +69,7 @@ export function ContactForm() {
           type="email"
           id="email"
           name="email"
-          className="w-full border border-gray-300 px-3 py-2.5 text-sm"
+          className="w-full border border-black-300 px-3 py-2.5 text-sm"
           required
         />
       </div>
@@ -77,7 +77,7 @@ export function ContactForm() {
       <div>
         <label
           htmlFor="message"
-          className="block text-xs uppercase tracking-widest text-gray-500 mb-2"
+          className="block text-xs uppercase tracking-widest text-black-500 mb-2"
         >
           Message
         </label>
@@ -85,7 +85,7 @@ export function ContactForm() {
           id="message"
           name="message"
           rows={4}
-          className="w-full border border-gray-300 px-3 py-2.5 text-sm"
+          className="w-full border border-black-300 px-3 py-2.5 text-sm"
           required
         />
       </div>
