@@ -1,6 +1,7 @@
+import React from "react";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "./index.css";
 import { Navbar } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 
@@ -23,11 +24,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="font-sans">
-        {/* Navigation bar call */}
-        <Navbar />
-        <main className="pt-20">{children}</main>
-        {/* Footer call */}
-        <Footer />
+        <div className="min-h-screen bg-white text-black selection:bg-[#E53935] selection:text-white">
+          {/* Navigation */}
+          <Navbar />
+          <main className="max-w-4xl mx-auto px-6">{children}</main>
+          <div className="max-w-4xl mx-auto px-6">
+            {/* Footer */}
+            <Footer />
+          </div>
+        </div>
       </body>
     </html>
   );
