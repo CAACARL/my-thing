@@ -18,8 +18,8 @@ export function Experience() {
         {/* Row 1 */}
         <div className="grid grid-cols-1 md:grid-cols-[140px_1fr_180px] gap-2 md:gap-4 py-4 border-t border-gray-200">
           <div className="text-sm text-gray-500">2026 — </div>
-          <div className="text-sm font-medium text-black">Student</div>
-          <div className="text-sm text-gray-600"></div>
+          <div className="text-sm font-medium text-black">Intern</div>
+          <div className="text-sm text-gray-600">Innoendo IT Solutions</div>
         </div>
       </FadeIn>
     </section>
