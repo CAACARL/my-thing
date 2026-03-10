@@ -19,7 +19,7 @@ export function Hero() {
       <div className="w-full">
         <FadeIn>
           <h1 className="text-4xl md:text-5xl font-medium text-black tracking-tight">
-            Carlo Alberto D. Albao
+            Carlo Albao
           </h1>
           <div className="w-30 h-0.5 bg-[#E53935] mt-4 mb-6" />
         </FadeIn>
