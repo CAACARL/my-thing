@@ -14,7 +14,7 @@ export function Skills() {
             <h3 className="text-xs uppercase tracking-widest text-[#E53935] font-medium mb-4">
               Languages
             </h3>
-            <div className="space-y-2 text-sm text-gray-700 leading-relaxed">
+            <div className="space-y-2 text-sm text-black-700 leading-relaxed font-bold">
               <div>Javascript</div>
               <div>HTML</div>
               <div>CSS</div>
@@ -28,7 +28,7 @@ export function Skills() {
             <h3 className="text-xs uppercase tracking-widest text-[#E53935] font-medium mb-4">
               Frameworks
             </h3>
-            <div className="space-y-2 text-sm text-gray-700 leading-relaxed">
+            <div className="space-y-2 text-sm text-black-700 leading-relaxed font-bold">
               <div>React</div>
               <div>Next.js</div>
               <div>Laravel</div>
@@ -41,7 +41,7 @@ export function Skills() {
             <h3 className="text-xs uppercase tracking-widest text-[#E53935] font-medium mb-4">
               Tools
             </h3>
-            <div className="space-y-2 text-sm text-gray-700 leading-relaxed">
+            <div className="space-y-2 text-sm text-black-700 leading-relaxed font-bold">
               <div>XAMPP</div>
               <div>Git</div>
             </div>

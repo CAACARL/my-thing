@@ -25,7 +25,11 @@ export function Hero() {
         </FadeIn>
 
         <FadeIn delay={0.1}>
-          <p className="text-base text-gray-600 max-w-xl">Portfolio</p>
+          <p className="text-base text-black-600 max-w-xl">
+            Building projects, learning new technologies, and turning ideas into working web
+            applications. This portfolio highlights the projects I’ve developed while gaining
+            experience and expanding my understanding of modern web development.
+          </p>
         </FadeIn>
 
         <FadeIn delay={0.2}>

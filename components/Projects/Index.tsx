@@ -12,13 +12,13 @@ export function Projects() {
         <div>
           {/* Project 1 */}
           <div className="grid grid-cols-1 md:grid-cols-[200px_1fr_160px_100px] gap-4 items-baseline py-6 border-t border-gray-200">
-            <div className="font-medium text-black">Massage Booking System</div>
-            <div className="text-sm text-gray-600">
+            <div className="font-bold text-black">Massage Booking System</div>
+            <div className="text-sm text-black-600">
               System that allows customers to schedule professional massage therapists to visit
               their homes, while providing administrators tools to manage bookings and therapist
               availability.
             </div>
-            <div className="text-xs text-gray-400">Laravel, Boostrap, Javascript, HTML, CSS</div>
+            <div className="text-xs text-black-400">Laravel, Boostrap, Javascript, HTML, CSS</div>
             <div className="text-xs">
               <a
                 href="https://github.com/CAACARL/Sia2-Massage-Booking"
@@ -33,12 +33,12 @@ export function Projects() {
 
           {/* Project 2 */}
           <div className="grid grid-cols-1 md:grid-cols-[200px_1fr_160px_100px] gap-4 items-baseline py-6 border-t border-gray-200">
-            <div className="font-medium text-black">Inventory System</div>
-            <div className="text-sm text-gray-600">
+            <div className="font-bold text-black">Inventory System</div>
+            <div className="text-sm text-black-600">
               An inventory management system designed to track products, manage stock levels, and
               streamline inventory operations through an intuitive administrative dashboard.
             </div>
-            <div className="text-xs text-gray-400">Laravel, Boostrap, Javascript, HTML, CSS</div>
+            <div className="text-xs text-black-400">Laravel, Boostrap, Javascript, HTML, CSS</div>
             <div className="text-xs">
               <a
                 href="https://github.com/CAACARL/IV-IS"
