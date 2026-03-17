@@ -12,6 +12,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.35.0",
+    "lightningcss": "^1.32.0",
     "lucide-react": "^0.577.0",
     "next": "16.1.6",
     "nodemailer": "^8.0.2",

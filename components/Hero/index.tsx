@@ -19,9 +19,9 @@ export function Hero() {
       <div className="w-full">
         <FadeIn>
           <h1 className="text-4xl md:text-5xl font-medium text-black tracking-tight">
-            Carlo Albao
+            Carlo Alberto D. Albao
           </h1>
-          <div className="w-30 h-0.5 bg-[#E53935] mt-4 mb-6" />
+          <div className="w-115 h-0.5 bg-[#E53935] mt-4 mb-6" />
         </FadeIn>
 
         <FadeIn delay={0.1}>
