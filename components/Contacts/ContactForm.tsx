@@ -54,6 +54,7 @@ export function ContactForm() {
           id="name"
           name="name"
           className="w-full border border-black-300 px-3 py-2.5 text-sm"
+          placeholder="John Smith"
           required
         />
       </div>
@@ -70,6 +71,7 @@ export function ContactForm() {
           id="email"
           name="email"
           className="w-full border border-black-300 px-3 py-2.5 text-sm"
+          placeholder="johnsmith@yourmail.com"
           required
         />
       </div>
@@ -86,6 +88,11 @@ export function ContactForm() {
           name="message"
           rows={4}
           className="w-full border border-black-300 px-3 py-2.5 text-sm"
+          placeholder={`Alouette, gentille alouette
+
+Alouette, je te plumerai
+
+Je te plumerai la tête`}
           required
         />
       </div>
