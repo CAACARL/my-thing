@@ -35,7 +35,7 @@ export function Projects() {
           <div className="grid grid-cols-1 md:grid-cols-[200px_1fr_160px_100px] gap-4 items-baseline py-6 border-t border-gray-200">
             <div className="font-bold text-black">Inventory System</div>
             <div className="text-sm text-black-600">
-              An inventory management system designed to track products, manage stock levels, and
+              An inventory management system designed to track and manage stock levels, and
               streamline inventory operations through an intuitive administrative dashboard.
             </div>
             <div className="text-xs text-black-400">Laravel, Boostrap, Javascript, HTML, CSS</div>
