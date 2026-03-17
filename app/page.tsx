@@ -16,7 +16,11 @@ export default function Home() {
         <FadeIn>
           {/* Fixed oval container */}
           <div className="relative w-64 h-80 mt-20 border-2 border-[#e53935] rounded-[50%/40%] overflow-hidden shadow-sm">
-            <img src="" alt="League streamer" className="w-full h-full object-cover" />
+            <img
+              src="/images/SM.webp"
+              alt="League streamer"
+              className="w-full h-full object-cover"
+            />
           </div>
         </FadeIn>
       </div>
