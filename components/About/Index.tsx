@@ -5,7 +5,7 @@ import { FadeIn } from "@/components/FadeIn";
 
 export function About() {
   return (
-    <section id="about" className="py-16 md:py-24">
+    <section id="about" className="py-16 md:py-24 px-4">
       <FadeIn>
         <h2 className="text-xs uppercase tracking-widest text-[#E53935] font-medium mb-8">About</h2>
         <p className="text-base text-black-700 leading-loose max-w-2xl">
