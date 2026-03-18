@@ -28,6 +28,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* Navigation */}
           <Navbar />
           <main className="max-w-4xl mx-auto px-6">{children}</main>
+          {/* Footer */}
+          <Footer />
         </div>
       </body>
     </html>
