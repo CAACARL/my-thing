@@ -27,8 +27,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="min-h-screen bg-white text-black selection:bg-[#E53935] selection:text-white">
           {/* Navigation */}
           <Navbar />
-          <main className="max-w-4xl mx-auto px-6">{children}</main>
-          <div className="max-w-4xl mx-auto px-6">
+          <main className="max-w-4xl mx-auto px-3 sm:px-6">{children}</main>
+          <div className="max-w-4xl mx-auto px-3 sm:px-6">
             {/* Footer */}
             <Footer />
           </div>
