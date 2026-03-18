@@ -26,7 +26,7 @@ export function Hero() {
 
         <FadeIn delay={0.1}>
           <p className="text-base text-black-600">
-            SBuilding projects, learning new technologies, and turning ideas into working web
+            Building projects, learning new technologies, and turning ideas into working web
             applications. This portfolio highlights the projects I’ve developed while gaining
             experience and expanding my understanding of modern web development.
           </p>
