@@ -8,7 +8,7 @@ export function About() {
     <section id="about" className="py-16 md:py-24">
       <FadeIn>
         <h2 className="text-xs uppercase tracking-widest text-[#E53935] font-medium mb-8">About</h2>
-        <p className="text-base text-black-700 leading-loose max-w-2xl">
+        <p className="text-base text-black-700 leading-loose">
           Hi, I’m Carl, an aspiring web developer with a strong interest in building practical and
           user-friendly web applications. I’m always eager to learn new technologies and improve my
           skills through hands-on projects. Through continuous learning and practice, I aim to grow
