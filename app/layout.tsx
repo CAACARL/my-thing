@@ -24,12 +24,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="font-sans">
-        <div className="w-full min-h-screen bg-white text-black selection:bg-[#E53935] selection:text-white">
+        <div className="min-h-screen bg-white text-black selection:bg-[#E53935] selection:text-white">
           {/* Navigation */}
           <Navbar />
           <main className="max-w-4xl mx-auto px-6">{children}</main>
-          {/* Footer */}
-          <Footer />
+          <div className="max-w-4xl mx-auto px-6">
+            {/* Footer */}
+            <Footer />
+          </div>
         </div>
       </body>
     </html>
