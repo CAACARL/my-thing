@@ -15,7 +15,7 @@ export default function Home() {
         <Hero />
         <FadeIn>
           {/* Fixed oval container */}
-          <div className="hidden md:block relative w-64 h-80 mt-20 border-2 border-[#e53935] rounded-[50%/40%] overflow-hidden shadow-sm">
+          <div className="relative w-64 h-80 mt-20 border-2 border-[#e53935] rounded-[50%/40%] overflow-hidden shadow-sm">
             <img
               src="/images/SM.webp"
               alt="League streamer"
