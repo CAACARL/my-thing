@@ -17,7 +17,7 @@ export default function Home() {
           {/* Fixed oval container */}
           <div className="relative w-32 h-44 sm:w-64 sm:h-80 mt-20 border-2 border-[#e53935] rounded-[50%/40%] overflow-hidden shadow-sm flex-shrink-0">
             <img
-              src="/images/saygex.jpg"
+              src="/images/SM.webp"
               alt="League streamer"
               className="w-full h-full object-cover"
             />
