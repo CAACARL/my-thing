@@ -15,11 +15,11 @@ export function Skills() {
               Languages
             </h3>
             <div className="space-y-2 text-sm text-black-700 leading-relaxed font-bold">
-              <div>Javascript</div>
-              <div>HTML</div>
               <div>CSS</div>
-              <div>PHP</div>
+              <div>HTML</div>
               <div>Java</div>
+              <div>JavaScript</div>
+              <div>PHP</div>
             </div>
           </div>
 
@@ -29,9 +29,9 @@ export function Skills() {
               Frameworks
             </h3>
             <div className="space-y-2 text-sm text-black-700 leading-relaxed font-bold">
-              <div>React</div>
-              <div>Next.js</div>
               <div>Laravel</div>
+              <div>Next.js</div>
+              <div>React</div>
               <div>Tailwind CSS</div>
             </div>
           </div>
@@ -42,8 +42,8 @@ export function Skills() {
               Tools
             </h3>
             <div className="space-y-2 text-sm text-black-700 leading-relaxed font-bold">
-              <div>XAMPP</div>
               <div>Git</div>
+              <div>XAMPP</div>
             </div>
           </div>
         </div>
