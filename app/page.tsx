@@ -7,6 +7,14 @@ import { Projects } from "@/components/Projects/Index";
 import { Experience } from "@/components/Experience/index";
 import { FadeIn } from "@/components/FadeIn";
 
+export const metadata = {
+  title: "Portfolio",
+  description: "...",
+  verification: {
+    google: "google-site-verification: google026f15ca1fcc25ef.html",
+  },
+};
+
 export default function Home() {
   return (
     <>
