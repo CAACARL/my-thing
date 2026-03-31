@@ -16,10 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
-  description: "Portfolio",
+  title: "Portfolio",
+  description: "Portfolio of a dude",
   verification: {
-    google: "026f15ca1fcc25ef",
+    google: "P9M_9nN4R8zD9u91CH6kQiMy5jOYSphg800wlAO5NT8",
   },
 };
 
